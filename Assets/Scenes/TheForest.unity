@@ -15,9 +15,9 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 1
-  m_FogColor: {r: 0.17735851, g: 0.16238607, b: 0.10674974, a: 1}
+  m_FogColor: {r: 0.5169811, g: 0.45003074, b: 0.3696903, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.04
+  m_FogDensity: 0.009
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 8185c62f5ccafe247bd3d1a04315857d, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: d4cd6577352fd4946994aa7e3e3609e4, type: 2}
   m_HaloStrength: 0.684
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -321,44 +321,56 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7231903619604404473, guid: 0603828da9221ca4a9a54954ff8842ff, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.58281
+      objectReference: {fileID: 0}
+    - target: {fileID: 7231903619604404473, guid: 0603828da9221ca4a9a54954ff8842ff, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.58281
+      objectReference: {fileID: 0}
+    - target: {fileID: 7231903619604404473, guid: 0603828da9221ca4a9a54954ff8842ff, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.58281
+      objectReference: {fileID: 0}
+    - target: {fileID: 7231903619604404473, guid: 0603828da9221ca4a9a54954ff8842ff, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.79
+      value: 7.81
       objectReference: {fileID: 0}
     - target: {fileID: 7231903619604404473, guid: 0603828da9221ca4a9a54954ff8842ff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.58
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: 7231903619604404473, guid: 0603828da9221ca4a9a54954ff8842ff, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.81
+      value: -1.81
       objectReference: {fileID: 0}
     - target: {fileID: 7231903619604404473, guid: 0603828da9221ca4a9a54954ff8842ff, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.94105744
+      value: 0.76200205
       objectReference: {fileID: 0}
     - target: {fileID: 7231903619604404473, guid: 0603828da9221ca4a9a54954ff8842ff, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.02423074
+      value: -0.029800924
       objectReference: {fileID: 0}
     - target: {fileID: 7231903619604404473, guid: 0603828da9221ca4a9a54954ff8842ff, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.33677173
+      value: -0.6468053
       objectReference: {fileID: 0}
     - target: {fileID: 7231903619604404473, guid: 0603828da9221ca4a9a54954ff8842ff, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.020217013
+      value: -0.010380814
       objectReference: {fileID: 0}
     - target: {fileID: 7231903619604404473, guid: 0603828da9221ca4a9a54954ff8842ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -3.395
+      value: -3.374
       objectReference: {fileID: 0}
     - target: {fileID: 7231903619604404473, guid: 0603828da9221ca4a9a54954ff8842ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -39.344
+      value: -80.689
       objectReference: {fileID: 0}
     - target: {fileID: 7231903619604404473, guid: 0603828da9221ca4a9a54954ff8842ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -1.247
+      value: 1.305
       objectReference: {fileID: 0}
     - target: {fileID: 8004922568447459907, guid: 0603828da9221ca4a9a54954ff8842ff, type: 3}
       propertyPath: m_Name
@@ -472,8 +484,8 @@ Transform:
   m_GameObject: {fileID: 1249617917}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5.192085, y: 5.192085, z: 5.192085}
+  m_LocalPosition: {x: 7.39, y: 0, z: 0}
+  m_LocalScale: {x: 3.8652475, y: 5.192085, z: 5.192085}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
