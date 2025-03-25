@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 06f0921d50fa9ea42be47cd4fa7ec4c9
+guid: 40c411c2ac310aa4d927e32b79bbde8e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,13 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Bark
-    second: {fileID: 2100000, guid: 6032ed4c26c85dc47894f37688c19709, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Branches
-    second: {fileID: 2100000, guid: 54c4fbb3c4a26f746b6344493f4b61f5, type: 2}
+      name: hatlas
+    second: {fileID: 2100000, guid: 052a955b1f715454ba82e1f988552204, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
