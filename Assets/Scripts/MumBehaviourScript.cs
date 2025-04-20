@@ -2,26 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class PlaySoundOnTrigger : MonoBehaviour
 {
     public AudioClip mumTree;
-    // Start is called before the first frame update
+    private AudioSource audioSource;
+
     void Start()
     {
         
+        audioSource = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Player" )
+        if (other.CompareTag("Player"))
         {
-
-            gameObject.GetComponent<AudioSource>().PlayOneShot(mumTree);
+            if (audioSource && mumTree)
+            {
+                audioSource.PlayOneShot(mumTree);
+            }
+            else
+            {
+                Debug.LogWarning("Missing AudioSource" + gameObject.name);
+            }
         }
     }
 }
